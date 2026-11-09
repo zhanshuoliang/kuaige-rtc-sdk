@@ -1,0 +1,18 @@
+{
+  "name": "kuaige/rtc-sdk",
+  "description": "Kuaige RTC server-side view token and license client",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-hash": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "files": ["php/src/rtc.php"]
+  },
+  "scripts": {
+    "test": "php php/tests/rtc_test.php"
+  }
+}

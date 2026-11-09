@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+vendor/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+coverage.out
